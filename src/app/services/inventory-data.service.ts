@@ -15,6 +15,6 @@ export class InventoryDataService {
   ) { }
 
   executeInventoryBean() {
-    return this.http.get<InventoryBean>('http://localhost:8080/getlist');
+    return this.http.get<InventoryBean>('https://rvinventory.herokuapp.com/getlist');
   }
 }
